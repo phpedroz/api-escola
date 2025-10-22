@@ -1,56 +1,5 @@
-<<<<<<< HEAD
-API Escola
 
-API simples em TypeScript para gerenciar alunos, suas séries, idades e notas em matérias escolares (Matemática, Geografia, História).
-Os dados são armazenados em um banco de dados PostgreSQL via Docker, com administração via pgAdmin4.
 
-✨ Funcionalidades
-
-Cadastro de alunos (nome, série, idade)
-
-Registro de 6 notas por matéria (Matemática, Geografia, História)
-
-Cálculo automático da média das notas de cada matéria (com 2 casas decimais)
-
-Armazenamento dos dados e médias no banco PostgreSQL
-
-🛠 Tecnologias Utilizadas
-
-Node.js
-
-TypeScript
-
-PostgreSQL (Docker)
-
-pgAdmin4
-
-Docker Compose
-
-✅ Pré-requisitos
-
-Node.js (v16 ou superior)
-
-Docker + Docker Compose
-
-Git
-
-VSCode ou outro editor
-
-🚀 Como rodar o projeto
-1. Clone o repositório
-
-git clone https://github.com/phpedroz/api-escola.git && cd api-escola
-
-2. Suba o banco de dados com Docker
-
-docker-compose up -d
-
-PostgreSQL rodando na porta 5433
-
-pgAdmin4 acessível em http://localhost:8080
-
-Login pgAdmin:
-=======
 # API Escola
 
 API simples em **TypeScript** para gerenciar alunos, suas séries, idades e notas em matérias escolares (Matemática, Geografia, História).  
